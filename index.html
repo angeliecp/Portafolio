@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelie Camarena | QA Software Tester</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="blob-bg blob-1"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <main class="glass-container">
+        <!-- Sidebar / Header -->
+        <header class="header">
+            <div class="profile-pic">
+                <img src="profile.png" alt="Angelie Marie Camarena" />
+            </div>
+            <h1 class="name">Angelie Camarena</h1>
+            <p style="font-style: italic;">24-SISN-2-006</p>
+            <h2 class="title">Software QA Tester</h2>
+            
+            <nav class="tabs-nav">
+                <button class="tab-btn active" data-target="quien-soy">Quién soy</button>
+                <button class="tab-btn" data-target="contactos">Contactos</button>
+                <button class="tab-btn" data-target="proyectos">Proyectos</button>
+            </nav>
+        </header>
+
+        <!-- Content Area -->
+        <section class="content-area">
+            
+            <!-- Tab 1: Quién soy -->
+            <article class="tab-content active" id="quien-soy">
+                <h3 class="section-title">Sobre mí</h3>
+                <div class="about-text">
+                    <p>
+                        ¡Hola! Soy <strong>Angelie Marie Camarena</strong>. Soy una auténtica apasionada de la tecnología y una "cazadora de bugs" en formación. Mi gran objetivo es dedicarme por completo al <strong>Testing y QA de software</strong>.
+                    </p>
+                    <p>
+                        Me encanta explorar sistemas para entender cómo funcionan (y encontrar por qué no lo hacen). Soy súper detallista —de esas personas que ven un píxel fuera de lugar a un kilómetro de distancia— pero siempre con el entusiasmo y la mejor sonrisa para ayudar al equipo a lanzar un software impecable. 
+                    </p>
+                    <p>
+                        Si hay un escenario de borde <em>(edge case)</em> que nadie imaginó, puedes apostar que yo lo encontraré. ¡Trabajemos juntos para asegurar la máxima calidad posible!
+                    </p>
+                </div>
+            </article>
+
+            <!-- Tab 2: Contactos -->
+            <article class="tab-content" id="contactos">
+                <h3 class="section-title">Redes y Contacto</h3>
+                <p class="subtitle">¡Conversemos! Puedes encontrarme en:</p>
+                <div class="social-links">
+                    <a href="mailto:camarena.0815@gmail.com" class="social-btn">
+                        <span class="icon">📧</span> Correo Electrónico
+                    </a>
+                    <a href="https://www.linkedin.com/in/angeliecamarena/" target="_blank" class="social-btn">
+                        <span class="icon">💼</span> LinkedIn
+                    </a>
+                    <a href="https://github.com/angeliecp" target="_blank" class="social-btn">
+                        <span class="icon">💻</span> GitHub
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-btn">
+                        <span class="icon">📸</span> Instagram
+                    </a>
+                </div>
+                
+                <div class="cv-section">
+                    <a href="./Profile.pdf" class="cv-btn">
+                        ⬇️ Descargar Mi CV
+                    </a>
+                </div>
+            </article>
+
+            <!-- Tab 3: Proyectos -->
+            <article class="tab-content" id="proyectos">
+                <h3 class="section-title">Mis Proyectos</h3>
+                <p class="subtitle">Haciendo clic en el botón podrás explorar mis repositorios:</p>
+                
+                <div class="projects-grid">
+                    <!-- Proyecto 1 -->
+                    <div class="project-card">
+                        <h4>Creación de Sistema RRHH</h4>
+                        <p>Creación de una interfaz en consola para ingresar y consultar información de empleados de una empresa. Practica de Programación.</p>
+                        <a href="https://github.com/angeliecp/AsignacionArreglos1" target="_blank" class="project-btn">Ver en GitHub ↗</a>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="project-card">
+                        <h4>Creación de Sistema Bancario</h4>
+                        <p>Creación de un simulador de sistema bancario para realizar operaciones basicas como depositos, retiros y consulta de balance de cuentas.</p>
+                        <a href="https://github.com/angeliecp/Practica3" target="_blank" class="project-btn">Ver en GitHub ↗</a>
+                    </div>
+                    <!-- Proyecto 3 -->
+                    <div class="project-card">
+                        <h4>Reporte de Bugs</h4>
+                        <p>Plantilla detallada de reporte de incidencias con evidencias y pasos para reproducir fallos en un sistema de gestión.</p>
+                        <a href="https://github.com/angeliecp/practicas" target="_blank" class="project-btn">Ver en GitHub ↗</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
